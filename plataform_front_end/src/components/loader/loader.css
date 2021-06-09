@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family= Baloo Da');
+
+body{
+    position: relative;
+    height: 100vw;
+ 
+    background: #3A0088;
+    background-image: url("/home/quemia/Documentos/Projetos/Homer-Project/plataform_front_end/src/components/img/loaderImg.png");
+    /* background-image: url("./components/img/loaderImg.png"); */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat; 
+}
+
+p{
+
+   
+    color: #FFBD39;
+    -webkit-text-stroke-width: 3px; /* largura da borda */
+    -webkit-text-stroke-color: #3a0088; /* cor da borda */
+    
+    font-family: Baloo Da;
+    font-style: normal;
+    font-weight: bold;
+    font-size: calc(4em + 7vw); 
+    
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+
+}
+
