@@ -2,22 +2,20 @@
 
 body{
     position: relative;
-    height: 100vw;
+    height: 100vh;
  
     background: #3A0088;
-    background-image: url("/home/quemia/Documentos/Projetos/Homer-Project/plataform_front_end/src/components/img/loaderImg.png");
-    /* background-image: url("./components/img/loaderImg.png"); */
+    background-image: url("../img/loaderImg.png");
     background-size: cover;
-    background-attachment: fixed;
-    background-repeat: repeat; 
+    background-repeat: no-repeat; 
 }
 
 p{
 
    
     color: #FFBD39;
-    -webkit-text-stroke-width: 3px; /* largura da borda */
-    -webkit-text-stroke-color: #3a0088; /* cor da borda */
+    -webkit-text-stroke-width: 3px; 
+    -webkit-text-stroke-color: #3a0088; 
     
     font-family: Baloo Da;
     font-style: normal;
@@ -30,3 +28,10 @@ p{
 
 }
 
+.homer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
