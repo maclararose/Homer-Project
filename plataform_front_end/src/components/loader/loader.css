@@ -1,29 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family= Baloo Da');
-
 body{
     position: relative;
     height: 100vh;
  
     background: #3A0088;
-    background-image: url("../img/loaderImg.png");
+    background-image: url("../img/Loader.png");
     background-size: cover;
     background-repeat: no-repeat; 
 }
 
 p{
-
-   
     color: #FFBD39;
     -webkit-text-stroke-width: 3px; 
     -webkit-text-stroke-color: #3a0088; 
     
-    font-family: Baloo Da;
+
+    font-family: 'Baloo Da 2', cursive;
     font-style: normal;
     font-weight: bold;
     font-size: calc(4em + 7vw); 
     
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
 
 }
